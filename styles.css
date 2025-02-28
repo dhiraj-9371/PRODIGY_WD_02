@@ -1,0 +1,62 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 50px;
+}
+
+/* Stopwatch Container */
+.stopwatch-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stopwatch Display */
+.display {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+/* Buttons */
+.buttons button {
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#startPause {
+    background: green;
+    color: white;
+}
+
+#reset {
+    background: red;
+    color: white;
+}
+
+#lap {
+    background: blue;
+    color: white;
+}
+
+/* Laps List */
+.laps {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.laps li {
+    background: #ddd;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
